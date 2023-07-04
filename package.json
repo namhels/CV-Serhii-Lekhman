@@ -1,5 +1,5 @@
 {
-  "name": "CV-Serhii-Lekhman",
+  "name": "cv-serhii-lekhman",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://namhels.github.io/CV-Serhii-Lekhman/",
@@ -13,6 +13,7 @@
     "framer-motion": "^10.12.18",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.3"
   },
