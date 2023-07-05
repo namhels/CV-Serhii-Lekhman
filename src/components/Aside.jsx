@@ -1,4 +1,5 @@
 import {
+  Box,
   // Avatar,
   Flex,
   GridItem,
@@ -19,17 +20,19 @@ import SerhiiLekhman from '../images/SerhiiLekhman.jpg';
 
 const Aside = () => {
   return (
-    <GridItem bg="purple.100" area={'aside'}>
+    <GridItem bg="purple.100" area={'aside'} borderLeftRadius="30px">
       <Flex justify="center" pt="40px">
-        <Image
-          borderRadius="full"
-          boxSize="300px"
-          objectFit="cover"
-          src={SerhiiLekhman}
-          alt="Serhii Lekhman"
-          borderWidth="5px"
-          borderColor="gray.200"
-        />
+        <Box borderRadius="full" borderWidth="14px" borderColor="gray.100">
+          <Box borderRadius="full" borderWidth="10px" borderColor="cyan.100">
+            <Image
+              borderRadius="full"
+              boxSize="300px"
+              objectFit="cover"
+              src={SerhiiLekhman}
+              alt="Serhii Lekhman"
+            />
+          </Box>
+        </Box>
         {/* <Avatar
           w="300px"
           h="300px"
@@ -42,8 +45,8 @@ const Aside = () => {
       </Flex>
       <Flex direction="column" align="start" pl={10} py={12} color="black">
         <Flex direction="column">
-          <Heading as="h2" size="lg">
-            Contacts
+          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
+            CONTACTS
           </Heading>
           <List spacing={3} mt={4}>
             <ListItem>
@@ -80,7 +83,7 @@ const Aside = () => {
           </List>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading as="h2" size="lg">
+          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
             TECH SKILLS
           </Heading>
           <UnorderedList spacing={3} mt={4}>
@@ -96,7 +99,7 @@ const Aside = () => {
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading as="h2" size="lg">
+          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
             SOFT SKILLS
           </Heading>
           <UnorderedList spacing={3} mt={4}>
@@ -109,7 +112,7 @@ const Aside = () => {
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading as="h2" size="lg">
+          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
             LANGUAGES
           </Heading>
           <UnorderedList spacing={3} mt={4}>

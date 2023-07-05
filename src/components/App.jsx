@@ -10,10 +10,16 @@ export const App = () => {
         templateRows={'370px 1fr'}
         templateColumns={'370px 1fr'}
         w="1200px"
-        borderRadius="20px"
       >
         <Aside />
-        <GridItem bg="cyan.100" area={'header'} pl={10} pt={16} color="black">
+        <GridItem
+          bg="cyan.100"
+          area={'header'}
+          pl={10}
+          pt={16}
+          color="black"
+          borderTopRightRadius="30px"
+        >
           <Heading as="h1" size="3xl">
             Serhii Lekhman
           </Heading>
@@ -30,7 +36,7 @@ export const App = () => {
             can use my knowledge
           </Text>
         </GridItem>
-        <GridItem bg="gray.100" area={'main'}>
+        <GridItem bg="gray.100" area={'main'} borderBottomRightRadius="30px">
           Main
         </GridItem>
       </Grid>
