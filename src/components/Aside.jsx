@@ -1,6 +1,5 @@
 import {
   Box,
-  // Avatar,
   Flex,
   GridItem,
   Heading,
@@ -33,17 +32,15 @@ const Aside = () => {
             />
           </Box>
         </Box>
-        {/* <Avatar
-          w="300px"
-          h="300px"
-          name="Serhii Lekhman"
-          src={SerhiiLekhman}
-          showBorder
-          border="5px"
-          borderColor="gray.200"
-        /> */}
       </Flex>
-      <Flex direction="column" align="start" pl={10} py={12} color="black">
+      <Flex
+        direction="column"
+        align="start"
+        pl={10}
+        pr={10}
+        py={12}
+        color="black"
+      >
         <Flex direction="column">
           <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
             CONTACTS
@@ -89,13 +86,12 @@ const Aside = () => {
           <UnorderedList spacing={3} mt={4}>
             <ListItem>HTML, CSS, SASS</ListItem>
             <ListItem>Responsive/Adaptive design</ListItem>
-            <ListItem>JavaScript</ListItem>
-            <ListItem>React: components & hooks</ListItem>
-            <ListItem>Redux Toolkit, Persist</ListItem>
+            <ListItem>JavaScript, TypeScript</ListItem>
+            <ListItem>React/Redux Toolkit, Persist</ListItem>
             <ListItem>REST API</ListItem>
             <ListItem>Webpack/Parcel</ListItem>
-            <ListItem>Node.js</ListItem>
-            <ListItem>MongoDB</ListItem>
+            <ListItem>Node.js, MongoDB, Postman</ListItem>
+            <ListItem>Chakra UI, Material UI, Styled-Components</ListItem>
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
@@ -117,8 +113,8 @@ const Aside = () => {
           </Heading>
           <UnorderedList spacing={3} mt={4}>
             <ListItem>English - intermediate</ListItem>
-            <ListItem>Ukrainian - Native</ListItem>
-            <ListItem>Russian - Native</ListItem>
+            <ListItem>Ukrainian - native</ListItem>
+            <ListItem>Russian - native</ListItem>
           </UnorderedList>
         </Flex>
       </Flex>
