@@ -42,9 +42,11 @@ const Aside = () => {
         color="black"
       >
         <Flex direction="column">
-          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
-            CONTACTS
-          </Heading>
+          <Box px={6} bg="gray.100" borderRadius="full">
+            <Heading as="h2" size="lg">
+              CONTACTS
+            </Heading>
+          </Box>
           <List spacing={3} mt={4}>
             <ListItem>
               <Link href="tel:+380955559063">
