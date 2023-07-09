@@ -33,59 +33,51 @@ const Aside = () => {
           </Box>
         </Box>
       </Flex>
-      <Flex
-        direction="column"
-        align="start"
-        pl={10}
-        pr={10}
-        py={12}
-        color="black"
-      >
-        <Flex direction="column">
-          <Box px={6} bg="gray.100" borderRadius="full">
-            <Heading as="h2" size="lg">
-              CONTACTS
-            </Heading>
-          </Box>
-          <List spacing={3} mt={4}>
-            <ListItem>
-              <Link href="tel:+380955559063">
-                <ListIcon as={GiSmartphone} />
-                +38 095-555-90-63
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="mailto:8.lsv.888@gmail.com">
-                <ListIcon as={MdOutlineEmail} />
-                8.lsv.888@gmail.com
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://www.github.com/namhels" isExternal>
-                <ListIcon as={AiFillGithub} />
-                github.com/namhels
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link
-                href="https://www.linkedin.com/in/serhii-lekhman"
-                isExternal
-              >
-                <ListIcon as={AiOutlineLinkedin} />
-                linkedin.com/in/serhii-lekhman
-              </Link>
-            </ListItem>
-            <ListItem>
-              <ListIcon as={MdLocationPin} />
-              Ukraine, Zaporizhzhya
-            </ListItem>
-          </List>
-        </Flex>
+      <Box pl={10} py={12} color="black">
+        <Heading as="h2" size="lg" px={6} bg="gray.100" borderLeftRadius="full">
+          CONTACTS
+        </Heading>
+        <List spacing={3} mt={4} pr={10}>
+          <ListItem>
+            <Link href="tel:+380955559063">
+              <ListIcon as={GiSmartphone} />
+              +38 095-555-90-63
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="mailto:8.lsv.888@gmail.com">
+              <ListIcon as={MdOutlineEmail} />
+              8.lsv.888@gmail.com
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.github.com/namhels" isExternal>
+              <ListIcon as={AiFillGithub} />
+              github.com/namhels
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/serhii-lekhman" isExternal>
+              <ListIcon as={AiOutlineLinkedin} />
+              linkedin.com/in/serhii-lekhman
+            </Link>
+          </ListItem>
+          <ListItem>
+            <ListIcon as={MdLocationPin} />
+            Ukraine, Zaporizhzhya
+          </ListItem>
+        </List>
         <Flex direction="column" mt={7}>
-          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
+          <Heading
+            as="h2"
+            size="lg"
+            px={6}
+            bg="gray.100"
+            borderLeftRadius="full"
+          >
             TECH SKILLS
           </Heading>
-          <UnorderedList spacing={3} mt={4}>
+          <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>HTML, CSS, SASS</ListItem>
             <ListItem>Responsive/Adaptive design</ListItem>
             <ListItem>JavaScript, TypeScript</ListItem>
@@ -97,10 +89,16 @@ const Aside = () => {
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
+          <Heading
+            as="h2"
+            size="lg"
+            px={6}
+            bg="gray.100"
+            borderLeftRadius="full"
+          >
             SOFT SKILLS
           </Heading>
-          <UnorderedList spacing={3} mt={4}>
+          <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>Strong analytical thinking</ListItem>
             <ListItem>Attention to details</ListItem>
             <ListItem>Teamwork</ListItem>
@@ -110,16 +108,22 @@ const Aside = () => {
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading as="h2" size="lg" px={6} bg="gray.100" borderRadius="full">
+          <Heading
+            as="h2"
+            size="lg"
+            px={6}
+            bg="gray.100"
+            borderLeftRadius="full"
+          >
             LANGUAGES
           </Heading>
-          <UnorderedList spacing={3} mt={4}>
+          <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>English - intermediate</ListItem>
             <ListItem>Ukrainian - native</ListItem>
             <ListItem>Russian - native</ListItem>
           </UnorderedList>
         </Flex>
-      </Flex>
+      </Box>
     </GridItem>
   );
 };
