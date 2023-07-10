@@ -1,0 +1,37 @@
+[
+  {
+    "href": "https://github.com/namhels/goit-react-hw-08-phonebook",
+    "heading": "Phonebook",
+    "technologies": "[ REACT, REDUX TOOLKIT, PERSIST, AXIOS, STYLED-COMPONENTS, CHAKRA UI ]",
+    "title": "Single project",
+    "description": "Application for add, delete, filter and store on server"
+  },
+  {
+    "href": "https://github.com/namhels/chess-react-typescript",
+    "heading": "Chess",
+    "technologies": "[ REACT, TYPESCRIPT, CHAKRA UI ]",
+    "title": "Single project",
+    "description": "Application for playing chess"
+  },
+  {
+    "href": "https://github.com/namhels/Filmoteka-single-project",
+    "heading": "Filmoteka",
+    "technologies": "[ HTML, SASS, JS, REST API, AXIOS ]",
+    "title": "Single project",
+    "description": "Project about searching movies, and adding favorite movies to a client personal library"
+  },
+  {
+    "href": "https://github.com/namhels/ice-cream--project-js",
+    "heading": "Ice Cream",
+    "technologies": "[ HTML, SASS, JS, PARCEL ]",
+    "title": "Team projeсt",
+    "description": "Ice Cream company site with a responsive layout"
+  },
+  {
+    "href": "https://github.com/namhels/Web-Studio",
+    "heading": "Web Studio",
+    "technologies": "[ HTML, SASS, JS ]",
+    "title": "Single project",
+    "description": "WebStudio company site with a responsive layout"
+  }
+]

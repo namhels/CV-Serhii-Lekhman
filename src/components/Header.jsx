@@ -32,7 +32,7 @@ const Header = () => {
       <Text fontSize="md" mt={2}>
         I'm a junior Full Stack Developer with strong analytical thinking and
         excellent basic training. I have good knowledge and practical experience
-        at HTML, CSS, SASS, JavaScript. Used React/Redux as main tool of
+        at HTML, CSS, SASS, JavaScript. Used React/Redux Toolkit as main tool of
         Front-end. Implemented RESTfull API's using Node.js. I am constantly
         improving my level as a specialist and I am looking for a company where
         I can be useful, become part of a team where I can use my knowledge
