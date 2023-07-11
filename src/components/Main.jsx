@@ -30,6 +30,7 @@ const Main = () => {
       <Box position="relative" padding="5">
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
+          as="b"
           fontSize="2xl"
           bg="purple.100"
           px="4"
@@ -38,7 +39,7 @@ const Main = () => {
           PROJECT EXPERIENCE
         </AbsoluteCenter>
       </Box>
-      <UnorderedList spacing={3} mt={3}>
+      <UnorderedList spacing={4} mt={3}>
         {projects.map(({ href, heading, technologies, title, description }) => (
           <ListItem>
             <Flex justifyContent="space-between">
@@ -57,9 +58,10 @@ const Main = () => {
           </ListItem>
         ))}
       </UnorderedList>
-      <Box position="relative" padding="5" mt={7}>
+      <Box position="relative" padding="5" mt={10}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
+          as="b"
           fontSize="2xl"
           bg="purple.100"
           px="4"
@@ -68,13 +70,13 @@ const Main = () => {
           WORK EXPERIENCE
         </AbsoluteCenter>
       </Box>
-      <UnorderedList spacing={3} mt={3}>
+      <UnorderedList spacing={4} mt={3}>
         {works.map(({ position, firm, years, description }) => (
           <ListItem>
-            <Heading as="h3" size="lg">
+            <Heading as="h3" size="md">
               {position}
             </Heading>
-            <Flex justifyContent="space-between" alignItems="baseline">
+            <Flex justifyContent="space-between" mt={2}>
               <Heading as="h4" size="md">
                 {firm}
               </Heading>
@@ -84,9 +86,10 @@ const Main = () => {
           </ListItem>
         ))}
       </UnorderedList>
-      <Box position="relative" padding="5" mt={7}>
+      <Box position="relative" padding="5" mt={10}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
+          as="b"
           fontSize="2xl"
           bg="purple.100"
           px="4"
@@ -95,10 +98,10 @@ const Main = () => {
           EDUCATION
         </AbsoluteCenter>
       </Box>
-      <UnorderedList spacing={3} mt={3}>
+      <UnorderedList spacing={4} mt={3}>
         {educations.map(({ title, years, description }) => (
           <ListItem>
-            <Flex justifyContent="space-between" alignItems="baseline">
+            <Flex justifyContent="space-between">
               <Heading as="h4" size="md">
                 {title}
               </Heading>
