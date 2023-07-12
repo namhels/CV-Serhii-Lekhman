@@ -12,7 +12,6 @@ export const App = () => {
         templateRows={'370px 1fr'}
         templateColumns={'370px 1fr'}
         w="1200px"
-        boxShadow="md"
       >
         <Aside />
         <Header />

@@ -17,10 +17,10 @@ const Header = () => {
       color="black"
       borderTopRightRadius="30px"
     >
-      <Heading as="h1" size="3xl">
+      <Heading as="h1" size="3xl" mb="14px">
         Serhii Lekhman
       </Heading>
-      <Text as="i" fontSize="2xl" mt={6}>
+      <Text as="i" fontSize="3xl" mt={6} fontWeight='700'>
         Full Stack Developer
       </Text>
       <Box position="relative" padding="5">
