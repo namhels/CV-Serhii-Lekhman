@@ -20,7 +20,7 @@ const Header = () => {
       <Heading as="h1" size="3xl" mb="14px">
         Serhii Lekhman
       </Heading>
-      <Text as="i" fontSize="3xl" mt={6} fontWeight='700'>
+      <Text as="i" fontSize="3xl" mt={6} fontWeight="700">
         Full Stack Developer
       </Text>
       <Box position="relative" padding="5">
@@ -31,6 +31,8 @@ const Header = () => {
           bg="gray.100"
           px="4"
           borderRadius="full"
+          borderWidth="3px"
+          borderColor="purple.100"
         >
           SUMMARY
         </AbsoluteCenter>

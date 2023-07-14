@@ -35,6 +35,8 @@ const Main = () => {
           bg="purple.100"
           px="4"
           borderRadius="full"
+          borderWidth="3px"
+          borderColor="cyan.100"
         >
           PROJECT EXPERIENCE
         </AbsoluteCenter>
@@ -66,6 +68,8 @@ const Main = () => {
           bg="purple.100"
           px="4"
           borderRadius="full"
+          borderWidth="3px"
+          borderColor="cyan.100"
         >
           WORK EXPERIENCE
         </AbsoluteCenter>
@@ -94,6 +98,8 @@ const Main = () => {
           bg="purple.100"
           px="4"
           borderRadius="full"
+          borderWidth="3px"
+          borderColor="cyan.100"
         >
           EDUCATION
         </AbsoluteCenter>

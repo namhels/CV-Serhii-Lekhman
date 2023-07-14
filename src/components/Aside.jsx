@@ -2,7 +2,6 @@ import {
   Box,
   Flex,
   GridItem,
-  Heading,
   Image,
   Link,
   List,
@@ -16,6 +15,7 @@ import { MdOutlineEmail, MdLocationPin } from 'react-icons/md';
 import { AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai';
 
 import SerhiiLekhman from '../images/SerhiiLekhman.jpg';
+import HeadingAside from './HeadingAside';
 
 const Aside = () => {
   return (
@@ -34,9 +34,7 @@ const Aside = () => {
         </Box>
       </Flex>
       <Box pl={10} py={12} color="black">
-        <Heading as="h2" size="lg" px={6} bg="gray.100" borderLeftRadius="full">
-          CONTACTS
-        </Heading>
+        <HeadingAside>CONTACTS</HeadingAside>
         <List spacing={3} mt={4} pr={10}>
           <ListItem>
             <Link href="tel:+380955559063">
@@ -68,36 +66,20 @@ const Aside = () => {
           </ListItem>
         </List>
         <Flex direction="column" mt={7}>
-          <Heading
-            as="h2"
-            size="lg"
-            px={6}
-            bg="gray.100"
-            borderLeftRadius="full"
-          >
-            TECH SKILLS
-          </Heading>
+          <HeadingAside>TECH SKILLS</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>HTML, CSS, SASS</ListItem>
             <ListItem>Responsive/Adaptive design</ListItem>
             <ListItem>JavaScript, TypeScript</ListItem>
             <ListItem>React/Redux Toolkit, Persist</ListItem>
-            <ListItem>REST API</ListItem>
+            <ListItem>Git, Figma, REST API</ListItem>
             <ListItem>Webpack/Parcel</ListItem>
             <ListItem>Node.js, MongoDB, Postman</ListItem>
             <ListItem>Chakra UI, Material UI, Styled-Components</ListItem>
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading
-            as="h2"
-            size="lg"
-            px={6}
-            bg="gray.100"
-            borderLeftRadius="full"
-          >
-            SOFT SKILLS
-          </Heading>
+          <HeadingAside>SOFT SKILLS</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>Strong analytical thinking</ListItem>
             <ListItem>Attention to details</ListItem>
@@ -108,15 +90,7 @@ const Aside = () => {
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <Heading
-            as="h2"
-            size="lg"
-            px={6}
-            bg="gray.100"
-            borderLeftRadius="full"
-          >
-            LANGUAGES
-          </Heading>
+          <HeadingAside>LANGUAGES</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>English - intermediate</ListItem>
             <ListItem>Ukrainian - native</ListItem>
