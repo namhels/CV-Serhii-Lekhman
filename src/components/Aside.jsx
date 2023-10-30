@@ -37,9 +37,9 @@ const Aside = () => {
         <HeadingAside>CONTACTS</HeadingAside>
         <List spacing={3} mt={4} pr={10}>
           <ListItem>
-            <Link href="tel:+380955559063">
+            <Link href="tel:+48576558744">
               <ListIcon as={GiSmartphone} />
-              +38 095-555-90-63
+              +48 576 558 744
             </Link>
           </ListItem>
           <ListItem>
@@ -62,7 +62,7 @@ const Aside = () => {
           </ListItem>
           <ListItem>
             <ListIcon as={MdLocationPin} />
-            Ukraine, Zaporizhzhya
+            Poland, Krakow
           </ListItem>
         </List>
         <Flex direction="column" mt={7}>
@@ -75,6 +75,7 @@ const Aside = () => {
             <ListItem>Git, Figma, REST API</ListItem>
             <ListItem>Webpack/Parcel</ListItem>
             <ListItem>Node.js, MongoDB, Postman</ListItem>
+            <ListItem>Next, Nest</ListItem>
             <ListItem>Chakra UI, Material UI, Styled-Components</ListItem>
           </UnorderedList>
         </Flex>

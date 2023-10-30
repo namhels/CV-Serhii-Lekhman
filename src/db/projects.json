@@ -2,9 +2,16 @@
   {
     "href": "https://github.com/namhels/goit-react-hw-08-phonebook",
     "heading": "Phonebook",
-    "technologies": "[ REACT, REDUX TOOLKIT, PERSIST, AXIOS, STYLED-COMPONENTS, CHAKRA UI ]",
+    "technologies": "[ REACT, REDUX TOOLKIT, PERSIST, REST API, AXIOS, STYLED-COMPONENTS, CHAKRA UI ]",
     "title": "Single project",
     "description": "Application for add, delete, filter and store on server"
+  },
+  {
+    "href": "https://github.com/namhels/MusicalBox_ts_nest_next_react_redax",
+    "heading": "MusicalBox",
+    "technologies": "[ TYPESCRIPT, NEXT, REACT, REDUX TOOLKIT, REST API, AXIOS, STYLED-COMPONENTS, CHAKRA UI ]",
+    "title": "Single project",
+    "description": "Application for adding, deleting, listening to music tracks"
   },
   {
     "href": "https://github.com/namhels/chess-react-typescript",

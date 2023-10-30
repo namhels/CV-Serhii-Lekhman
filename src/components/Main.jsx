@@ -23,7 +23,7 @@ const Main = () => {
       bg="gray.100"
       area={'main'}
       px={10}
-      pt={16}
+      py={16}
       color="black"
       borderBottomRightRadius="30px"
     >
