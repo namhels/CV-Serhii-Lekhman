@@ -60,6 +60,25 @@ const Main = () => {
           </ListItem>
         ))}
       </UnorderedList>
+      <UnorderedList spacing={4} mt={3}>
+        {projects.map(({ href, heading, technologies, title, description }) => (
+          <ListItem>
+            <Flex justifyContent="space-between">
+              <Link href={href} isExternal>
+                <Flex alignItems="baseline">
+                  <Heading as="h3" size="md">
+                    {heading}
+                  </Heading>
+                  <ListIcon as={AiFillGithub} ml="10px" />
+                </Flex>
+              </Link>
+              <Text fontSize="md">{technologies}</Text>
+            </Flex>
+            <Text fontSize="md">{title}</Text>
+            <Text fontSize="md">{description}</Text>
+          </ListItem>
+        ))}
+      </UnorderedList>
       <Box position="relative" padding="5" mt={10}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
