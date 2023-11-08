@@ -90,22 +90,6 @@ const Main = () => {
           </ListItem>
         ))}
       </UnorderedList>
-      <UnorderedList spacing={4} mt={3}>
-        {works.map(({ position, firm, years, description }) => (
-          <ListItem>
-            <Heading as="h3" size="md">
-              {position}
-            </Heading>
-            <Flex justifyContent="space-between" mt={2}>
-              <Heading as="h4" size="md">
-                {firm}
-              </Heading>
-              <Text fontSize="md">{years}</Text>
-            </Flex>
-            <Text fontSize="md">{description}</Text>
-          </ListItem>
-        ))}
-      </UnorderedList>
       <Box position="relative" padding="5" mt={10}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
