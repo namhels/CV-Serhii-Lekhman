@@ -1,13 +1,23 @@
 [
   {
+    "href": "https://github.com/namhels/DW-Zuraw",
+    "hrefView": "https://namhels.github.io/DW-Zuraw/",
+    "heading": "DW-Zuraw",
+    "technologies": "[ REACT, CHAKRA UI, RESPONSIVE/ADAPTIVE ]",
+    "title": "Single project",
+    "description": "Application for holiday home. Nice landing with responsive/adaptive design"
+  },
+  {
     "href": "https://github.com/namhels/goit-react-hw-08-phonebook",
+    "hrefView": "https://namhels.github.io/goit-react-hw-08-phonebook/",
     "heading": "Phonebook",
-    "technologies": "[ REACT, REDUX TOOLKIT, PERSIST, REST API, AXIOS, STYLED-COMPONENTS, CHAKRA UI ]",
+    "technologies": "[ REACT, REDUX TOOLKIT, PERSIST, REST API, AXIOS, STYLED-COMPONENTS, CHAKRA UI, RESPONSIVE/ADAPTIVE ]",
     "title": "Single project",
     "description": "Application for add, delete, filter and store on server"
   },
   {
     "href": "https://github.com/namhels/MusicalBox_ts_nest_next_react_redax",
+    "hrefView": "https://github.com/namhels/MusicalBox_ts_nest_next_react_redax",
     "heading": "MusicalBox",
     "technologies": "[ TYPESCRIPT, NEXT, REACT, REDUX TOOLKIT, REST API, AXIOS, STYLED-COMPONENTS, CHAKRA UI ]",
     "title": "Single project",
@@ -15,6 +25,7 @@
   },
   {
     "href": "https://github.com/namhels/chess-react-typescript",
+    "hrefView": "https://namhels.github.io/chess-react-typescript/",
     "heading": "Chess",
     "technologies": "[ REACT, TYPESCRIPT, CHAKRA UI ]",
     "title": "Single project",
@@ -22,23 +33,26 @@
   },
   {
     "href": "https://github.com/namhels/Filmoteka-single-project",
+    "hrefView": "https://namhels.github.io/Filmoteka-single-project/",
     "heading": "Filmoteka",
-    "technologies": "[ HTML, SASS, JS, REST API, AXIOS ]",
+    "technologies": "[ HTML, SASS, JS, REST API, AXIOS, RESPONSIVE/ADAPTIVE ]",
     "title": "Single project",
     "description": "Project about searching movies, and adding favorite movies to a client personal library"
   },
   {
     "href": "https://github.com/namhels/ice-cream--project-js",
+    "hrefView": "https://namhels.github.io/ice-cream--project-js/",
     "heading": "Ice Cream",
-    "technologies": "[ HTML, SASS, JS, PARCEL ]",
+    "technologies": "[ HTML, SASS, JS, PARCEL, RESPONSIVE/ADAPTIVE ]",
     "title": "Team projeсt",
-    "description": "Ice Cream company site with a responsive layout"
+    "description": "Ice Cream company site with a responsive/adaptive design"
   },
   {
     "href": "https://github.com/namhels/Web-Studio",
+    "hrefView": "https://namhels.github.io/Web-Studio/",
     "heading": "Web Studio",
-    "technologies": "[ HTML, SASS, JS ]",
+    "technologies": "[ HTML, SASS, JS, RESPONSIVE/ADAPTIVE ]",
     "title": "Single project",
-    "description": "WebStudio company site with a responsive layout"
+    "description": "WebStudio company site with a responsive/adaptive design"
   }
 ]
