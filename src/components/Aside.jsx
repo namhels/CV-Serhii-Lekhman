@@ -14,7 +14,7 @@ import { GiSmartphone } from 'react-icons/gi';
 import { MdOutlineEmail, MdLocationPin } from 'react-icons/md';
 import { AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai';
 
-import SerhiiLekhman from '../images/SerhiiLekhman.jpg';
+import ava from '../images/ava.jpg';
 import HeadingAside from './HeadingAside';
 
 const Aside = () => {
@@ -27,7 +27,7 @@ const Aside = () => {
               borderRadius="full"
               boxSize="300px"
               objectFit="cover"
-              src={SerhiiLekhman}
+              src={ava}
               alt="Serhii Lekhman"
             />
           </Box>
@@ -62,18 +62,18 @@ const Aside = () => {
           </ListItem>
           <ListItem>
             <ListIcon as={MdLocationPin} />
-            Poland, Krakow
+            Poland, Rabka-Zdroj
           </ListItem>
         </List>
         <Flex direction="column" mt={7}>
           <HeadingAside>TECH SKILLS</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
-            <ListItem>HTML, CSS, SASS</ListItem>
+            <ListItem>HTML, CSS, SASS, BEM</ListItem>
             <ListItem>Responsive/Adaptive design</ListItem>
             <ListItem>JavaScript, TypeScript</ListItem>
-            <ListItem>React/Redux Toolkit, Persist</ListItem>
+            <ListItem>React, Redux Toolkit, Persist</ListItem>
             <ListItem>Git, Figma, REST API</ListItem>
-            <ListItem>Webpack/Parcel</ListItem>
+            <ListItem>Webpack, Parcel</ListItem>
             <ListItem>Node.js, MongoDB, Postman</ListItem>
             <ListItem>Next, Nest</ListItem>
             <ListItem>Chakra UI, Material UI, Styled-Components</ListItem>
@@ -86,7 +86,6 @@ const Aside = () => {
             <ListItem>Attention to details</ListItem>
             <ListItem>Teamwork</ListItem>
             <ListItem>Creativity</ListItem>
-            <ListItem>Good communications</ListItem>
             <ListItem>Autonomous</ListItem>
           </UnorderedList>
         </Flex>

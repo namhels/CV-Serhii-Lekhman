@@ -141,3 +141,20 @@ const Main = () => {
 };
 
 export default Main;
+
+// {
+//   "href": "https://github.com/namhels/ice-cream--project-js",
+//   "hrefView": "https://namhels.github.io/ice-cream--project-js/",
+//   "heading": "Ice Cream",
+//   "technologies": "[ HTML, SASS, JS, PARCEL, RESPONSIVE/ADAPTIVE ]",
+//   "title": "Team projeсt",
+//   "description": "Ice Cream company site with a responsive/adaptive design"
+// },
+// {
+//   "href": "https://github.com/namhels/Web-Studio",
+//   "hrefView": "https://namhels.github.io/Web-Studio/",
+//   "heading": "Web Studio",
+//   "technologies": "[ HTML, SASS, JS, RESPONSIVE/ADAPTIVE ]",
+//   "title": "Single project",
+//   "description": "WebStudio company site with a responsive/adaptive design"
+// }
