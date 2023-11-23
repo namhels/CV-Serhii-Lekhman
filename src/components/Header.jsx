@@ -14,6 +14,7 @@ const Header = () => {
       area={'header'}
       px={10}
       pt={16}
+      pb="44px"
       color="black"
       borderTopRightRadius="30px"
     >
@@ -23,7 +24,7 @@ const Header = () => {
       <Text as="i" fontSize="3xl" mt={6} fontWeight="700">
         Full Stack Developer
       </Text>
-      <Box position="relative" padding="5">
+      <Box position="relative" padding="5" mb={6}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
           as="b"
@@ -37,14 +38,11 @@ const Header = () => {
           SUMMARY
         </AbsoluteCenter>
       </Box>
-      <Text fontSize="md" mt={2}>
-        I'm a Full Stack Developer with strong analytical thinking and excellent
-        basic training. I have good knowledge and practical experience at HTML,
-        CSS, SASS, JavaScript, TypeScript, Next, Nest. Used React, Redux Toolkit
-        as main tool of Front-end. Implemented RESTfull API's using Node.js. I
-        am constantly improving my level as a specialist and I am looking for a
-        company where I can be useful, become part of a team where I can use my
-        knowledge.
+      <Text fontSize="md" textIndent={16}>
+        I am a full-stack developer with two years of work experience. I have good knowledge and practical experience at HTML, CSS, SASS , BEM, JavaScript, TypeScript, Next, Nest, React, Redux Toolkit, Vue, RESTfull API, Node.js.
+      </Text>
+      <Text fontSize="md" textIndent={16}>
+        I am straightforward, simple, and able to laugh at myself. I was able to work and survive in the occupied territory for one year and nine months, that’s why I became more stress-resistant, stronger and adaptive. So I believe that a person with my experience is able to benefit your company.
       </Text>
     </GridItem>
   );

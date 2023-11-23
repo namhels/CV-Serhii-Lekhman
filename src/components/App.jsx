@@ -9,7 +9,7 @@ export const App = () => {
       <Grid
         templateAreas={`"aside header"
                       "aside main"`}
-        templateRows={'370px 1fr'}
+        templateRows={'auto-flow 1fr'}
         templateColumns={'370px 1fr'}
         w="1200px"
       >
