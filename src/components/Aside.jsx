@@ -19,7 +19,7 @@ import HeadingAside from './HeadingAside';
 
 const Aside = () => {
   return (
-    <GridItem bg="purple.100" area={'aside'} borderLeftRadius="30px">
+    <GridItem bg="purple.100" area={'aside'} borderLeftRadius="30px" borderRightColor="cyan.100" borderRightWidth="3px">
       <Flex justify="center" pt="40px">
         <Box borderRadius="full" borderWidth="14px" borderColor="gray.100">
           <Box borderRadius="full" borderWidth="10px" borderColor="cyan.100">
@@ -61,8 +61,10 @@ const Aside = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <ListIcon as={MdLocationPin} />
-            Poland, Rabka-Zdroj
+            <Link href="https://maps.app.goo.gl/EshspPnvS2uCFM6q9" isExternal>
+              <ListIcon as={MdLocationPin} />
+              Poland, Rabka-Zdroj
+            </Link>
           </ListItem>
         </List>
         <Flex direction="column" mt={7}>

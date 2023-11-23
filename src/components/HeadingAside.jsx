@@ -4,8 +4,10 @@ const HeadingAside = ({ children }) => {
   return (
     <Heading
       as="h2"
+      w="100%"
+      boxSizing="content-box"
       size="lg"
-      px={6}
+      pl={6}
       bg="gray.100"
       borderLeftRadius="full"
       borderTopWidth="3px"
