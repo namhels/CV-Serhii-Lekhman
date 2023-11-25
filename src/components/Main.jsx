@@ -94,20 +94,27 @@ const Main = () => {
         </AbsoluteCenter>
       </Box>
       <UnorderedList spacing={4} mt={3}>
-        {works.map(({ position, firm, years, description }) => (
-          <ListItem key={position}>
-            <Heading as="h3" size="md">
-              {position}
-            </Heading>
-            <Flex justifyContent="space-between" mt={2}>
-              <Heading as="h4" size="md">
-                {firm}
+        {works.map(
+          ({ position, firm, years, description, titleDescription }) => (
+            <ListItem key={position}>
+              <Heading as="h3" size="md">
+                {position}
               </Heading>
-              <Text fontSize="md">{years}</Text>
-            </Flex>
-            <Text fontSize="md">{description}</Text>
-          </ListItem>
-        ))}
+              <Flex justifyContent="space-between" mt={2}>
+                <Heading as="h4" size="md">
+                  {firm}
+                </Heading>
+                <Text fontSize="md">{years}</Text>
+              </Flex>
+              <Text mt={3} fontSize="md" fontWeight="bold">{titleDescription}</Text>
+              <UnorderedList spacing={2}>
+                {description.map(descr => (
+                  <ListItem key={descr}>{descr}</ListItem>
+                ))}
+              </UnorderedList>
+            </ListItem>
+          )
+        )}
       </UnorderedList>
       <Box position="relative" padding="5" mt={10}>
         <Divider borderBottomWidth="3px" borderColor="black" />
@@ -158,3 +165,25 @@ export default Main;
 //   "title": "Single project",
 //   "description": "WebStudio company site with a responsive/adaptive design"
 // }
+
+// [
+//   {
+//     "position": "Front End Developer",
+//     "firm": "Grand Soft",
+//     "years": "2022 - 2023",
+//     "TitleDescription": "Job description",
+//     "description": []
+//   },
+//   {
+//     "position": "Installer of metal-plastic structures",
+//     "firm": "PE 'Radyuk' - Zaporizhzhia region, Ukraine",
+//     "years": "2011 - 2021",
+//     "description": "Installation of metal-plastic windows, doors, balconies, structures"
+//   },
+//   {
+//     "position": "Social Inspector",
+//     "firm": "DLSP, Chernihivka RA, Zaporizhzhia region, Ukraine",
+//     "years": "2009 - 2010",
+//     "description": "Protecting the rights and meeting the needs of low-income families"
+//   }
+// ]

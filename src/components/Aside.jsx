@@ -74,6 +74,7 @@ const Aside = () => {
             <ListItem>Responsive/Adaptive design</ListItem>
             <ListItem>JavaScript, TypeScript</ListItem>
             <ListItem>React, Redux Toolkit, Persist</ListItem>
+            <ListItem>Vue</ListItem>
             <ListItem>Git, Figma, REST API</ListItem>
             <ListItem>Webpack, Parcel</ListItem>
             <ListItem>Node.js, MongoDB, Postman</ListItem>
@@ -85,7 +86,7 @@ const Aside = () => {
           <HeadingAside>SOFT SKILLS</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
             <ListItem>Strong analytical thinking</ListItem>
-            <ListItem>Attention to details</ListItem>
+            <ListItem>Stress resistance</ListItem>
             <ListItem>Teamwork</ListItem>
             <ListItem>Creativity</ListItem>
             <ListItem>Autonomous</ListItem>
