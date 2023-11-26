@@ -39,7 +39,7 @@ const Header = () => {
         </AbsoluteCenter>
       </Box>
       <Text fontSize="md" textIndent={16}>
-        I am a full-stack developer with two years of work experience. I have good knowledge and practical experience at HTML, CSS, SASS , BEM, JavaScript, TypeScript, Next, Nest, React, Redux Toolkit, Vue, RESTfull API, Node.js.
+        I am a full-stack developer with one year and nine months of work experience. I have good knowledge and practical experience at HTML, CSS, SASS , BEM, JavaScript, TypeScript, Next, Nest, React, Redux Toolkit, Vue, RESTfull API, Node.js.
       </Text>
       <Text fontSize="md" textIndent={16}>
         I am straightforward, simple, and able to laugh at myself. I was able to work and survive in the occupied territory for one year and nine months, that’s why I became more stress-resistant, stronger and adaptive. So I believe that a person with my experience is able to benefit your company.

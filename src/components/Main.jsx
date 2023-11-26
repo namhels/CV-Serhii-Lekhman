@@ -73,7 +73,7 @@ const Main = () => {
                 </Flex>
                 <Text fontSize="md">{technologies}</Text>
               </Flex>
-              <Text fontSize="md">{title}</Text>
+              <Text fontSize="md" fontWeight="bold" color="#6c757d">{title}</Text>
               <Text fontSize="md">{description}</Text>
             </ListItem>
           )
@@ -97,16 +97,20 @@ const Main = () => {
         {works.map(
           ({ position, firm, years, description, titleDescription }) => (
             <ListItem key={position}>
-              <Heading as="h3" size="md">
-                {position}
-              </Heading>
               <Flex justifyContent="space-between" mt={2}>
-                <Heading as="h4" size="md">
+                <Flex>
+                <Heading as="h3" size="md">
+                  {position}
+                </Heading>
+                <Heading as="h4" size="md" ml={2} color="#6c757d">
                   {firm}
                 </Heading>
-                <Text fontSize="md">{years}</Text>
+                </Flex>
+                <Text fontSize="md" fontWeight="bold" color="#6c757d">{years}</Text>
               </Flex>
-              <Text mt={3} fontSize="md" fontWeight="bold">{titleDescription}</Text>
+              <Text mt={3} fontSize="md" fontWeight="bold" color="#6c757d">
+                {titleDescription}
+              </Text>
               <UnorderedList spacing={2}>
                 {description.map(descr => (
                   <ListItem key={descr}>{descr}</ListItem>
@@ -137,7 +141,7 @@ const Main = () => {
               <Heading as="h4" size="md">
                 {title}
               </Heading>
-              <Text fontSize="md">{years}</Text>
+              <Text fontSize="md" fontWeight="bold" color="#6c757d">{years}</Text>
             </Flex>
             <Text fontSize="md">{description}</Text>
           </ListItem>
