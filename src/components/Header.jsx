@@ -14,7 +14,7 @@ const Header = () => {
       area={'header'}
       px={10}
       pt={16}
-      pb="44px"
+      pb="21px"
       color="black"
       borderTopRightRadius="30px"
     >
