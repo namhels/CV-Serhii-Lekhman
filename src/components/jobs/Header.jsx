@@ -13,17 +13,14 @@ const Header = () => {
       bg="cyan.100"
       area={'header'}
       px={10}
-      pt={16}
-      pb="21px"
+      py={16}
+      // pb="21px"
       color="black"
       borderTopRightRadius="30px"
     >
       <Heading as="h1" size="3xl" mb="14px">
         Serhii Lekhman
       </Heading>
-      <Text as="i" fontSize="3xl" mt={6} fontWeight="700">
-        Full Stack Developer
-      </Text>
       <Box position="relative" padding="5" mb={6}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
@@ -38,9 +35,6 @@ const Header = () => {
           SUMMARY
         </AbsoluteCenter>
       </Box>
-      <Text fontSize="md" textIndent={16}>
-        I am a full-stack developer with one year and nine months of work experience. I have good knowledge and practical experience at HTML, CSS, SASS , BEM, JavaScript, TypeScript, Next, Nest, React, Redux Toolkit, Vue, RESTfull API, Node.js.
-      </Text>
       <Text fontSize="md" textIndent={16}>
         I am straightforward, simple, and able to laugh at myself. I was able to work and survive in the occupied territory for one year and nine months, that’s why I became more stress-resistant, stronger and adaptive. Now I understand that I really love life. So I believe that a person with my experience is able to benefit your company.
       </Text>

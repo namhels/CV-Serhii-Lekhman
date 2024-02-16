@@ -1,0 +1,44 @@
+[
+  {
+    "position": "Builder",
+    "firm": "'InstaHouse' - Malopolskie Voivodeship, Poland",
+    "years": "2023 - present days",
+    "titleDescription": "Job description:",
+    "description": "Concrete works, waterproofing works for the preparation of foundations, construction of roofs, etc."
+  },
+  {
+    "position": "Front End Developer",
+    "firm": "'Grand Soft'",
+    "years": "2022 - 2023",
+    "titleDescription": "Job description:",
+    "description": "Development, support and improvement of functionality of web applications using React, Vue."
+  },
+  {
+    "position": "Installer of tiles",
+    "firm": "Pomeranian voivodeship, Poland",
+    "years": "2021",
+    "titleDescription": "Job description:",
+    "description": "Installation of tiles and interior work in the entrances of multi-storey buildings."
+  },
+  {
+    "position": "Installer of metal-plastic structures and stretch ceilings",
+    "firm": "PE 'Radyuk' - Zaporizhzhia region, Ukraine",
+    "years": "2012 - 2021",
+    "titleDescription": "Job description:",
+    "description": "Installation of metal-plastic windows, doors, balconies, structures, stretch ceilings."
+  },
+  {
+    "position": "Underground miner",
+    "firm": "'KyivMetroBud' - Kyiv, Ukraine",
+    "years": "2011 - 2012, 2019",
+    "titleDescription": "Job description:",
+    "description": "Construction and maintenance of the subway and auxiliary facilities."
+  },
+  {
+    "position": "Social Inspector",
+    "firm": "'DLSP', Chernihivka RA, Zaporizhzhia region, Ukraine",
+    "years": "2009 - 2010",
+    "titleDescription": "Job description:",
+    "description": "Protecting the rights and meeting the needs of low-income families."
+  }
+]

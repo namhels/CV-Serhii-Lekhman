@@ -6,17 +6,11 @@ import {
   UnorderedList,
   ListItem,
   Heading,
-  Link,
-  ListIcon,
   Text,
   Flex,
-  IconButton,
 } from '@chakra-ui/react';
 
-import { AiFillGithub } from 'react-icons/ai';
-import { FaRegEye } from 'react-icons/fa';
-import projects from '../../db/projects.json';
-import works from '../../db/works.json';
+import works from '../../db/worksJobs.json';
 import educations from '../../db/educations.json';
 
 const Main = () => {
@@ -29,56 +23,6 @@ const Main = () => {
       color="black"
       borderBottomRightRadius="30px"
     >
-      <Box position="relative" padding="5">
-        <Divider borderBottomWidth="3px" borderColor="black" />
-        <AbsoluteCenter
-          as="b"
-          fontSize="2xl"
-          bg="purple.100"
-          px="4"
-          borderRadius="full"
-          borderWidth="3px"
-          borderColor="cyan.100"
-        >
-          PROJECT EXPERIENCE
-        </AbsoluteCenter>
-      </Box>
-      <UnorderedList spacing={4} mt={3}>
-        {projects.map(
-          ({ href, hrefView, heading, technologies, title, description }) => (
-            <ListItem key={heading}>
-              <Flex justifyContent="space-between">
-                <Flex alignItems="center">
-                  <Link href={href} isExternal>
-                    <Flex alignItems="center">
-                      <ListIcon as={AiFillGithub} mr="5px" />
-                      <Heading as="h3" size="md">
-                        {heading}
-                      </Heading>
-                    </Flex>
-                  </Link>
-                  <Link href={hrefView} isExternal>
-                    <IconButton
-                      mx="8px"
-                      isRound={true}
-                      variant="outline"
-                      colorScheme="black"
-                      aria-label="View project"
-                      boxSize="16px"
-                      height="20px"
-                      fontSize="16px"
-                      icon={<FaRegEye />}
-                    />
-                  </Link>
-                </Flex>
-                <Text fontSize="md">{technologies}</Text>
-              </Flex>
-              <Text fontSize="md" fontWeight="bold" color="#6c757d">{title}</Text>
-              <Text fontSize="md">{description}</Text>
-            </ListItem>
-          )
-        )}
-      </UnorderedList>
       <Box position="relative" padding="5" mt={10}>
         <Divider borderBottomWidth="3px" borderColor="black" />
         <AbsoluteCenter
@@ -98,24 +42,20 @@ const Main = () => {
           ({ position, firm, years, description, titleDescription }) => (
             <ListItem key={position}>
               <Flex justifyContent="space-between" mt={2}>
-                <Flex>
                 <Heading as="h3" size="md">
                   {position}
                 </Heading>
-                <Heading as="h4" size="md" ml={2} color="#6c757d">
-                  {firm}
-                </Heading>
-                </Flex>
                 <Text fontSize="md" fontWeight="bold" color="#6c757d">{years}</Text>
               </Flex>
+                <Heading as="h4" size="md" color="#6c757d">
+                  {firm}
+                </Heading>
               <Text mt={3} fontSize="md" fontWeight="bold" color="#6c757d">
                 {titleDescription}
               </Text>
-              <UnorderedList spacing={2}>
-                {description.map(descr => (
-                  <ListItem key={descr}>{descr}</ListItem>
-                ))}
-              </UnorderedList>
+              <Text fontSize="md" fontWeight="bold" color="#6c757d">
+                {description}
+              </Text>
             </ListItem>
           )
         )}

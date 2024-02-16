@@ -12,7 +12,7 @@ import {
 
 import { GiSmartphone } from 'react-icons/gi';
 import { MdOutlineEmail, MdLocationPin } from 'react-icons/md';
-import { AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai';
+import { AiOutlineLinkedin } from 'react-icons/ai';
 
 import ava from '../../images/ava.jpg';
 import HeadingAside from './HeadingAside';
@@ -49,12 +49,6 @@ const Aside = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.github.com/namhels" isExternal>
-              <ListIcon as={AiFillGithub} />
-              github.com/namhels
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link href="https://www.linkedin.com/in/serhii-lekhman" isExternal>
               <ListIcon as={AiOutlineLinkedin} />
               linkedin.com/in/serhii-lekhman
@@ -67,21 +61,6 @@ const Aside = () => {
             </Link>
           </ListItem>
         </List>
-        <Flex direction="column" mt={7}>
-          <HeadingAside>TECH SKILLS</HeadingAside>
-          <UnorderedList spacing={3} mt={4} pr={10}>
-            <ListItem>HTML, CSS, SASS, BEM</ListItem>
-            <ListItem>Responsive/Adaptive design</ListItem>
-            <ListItem>JavaScript, TypeScript</ListItem>
-            <ListItem>React, Redux Toolkit, Persist</ListItem>
-            <ListItem>Vue</ListItem>
-            <ListItem>Git, Figma, REST API</ListItem>
-            <ListItem>Webpack, Parcel</ListItem>
-            <ListItem>Node.js, MongoDB, Postman</ListItem>
-            <ListItem>Next, Nest</ListItem>
-            <ListItem>Chakra UI, Material UI, Styled-Components</ListItem>
-          </UnorderedList>
-        </Flex>
         <Flex direction="column" mt={7}>
           <HeadingAside>SOFT SKILLS</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
