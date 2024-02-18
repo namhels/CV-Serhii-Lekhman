@@ -34,7 +34,7 @@ const Aside = () => {
         </Box>
       </Flex>
       <Box pl={10} py={12} color="black">
-        <HeadingAside>КОНТАКТЫ</HeadingAside>
+        <HeadingAside>КОНТАКТИ</HeadingAside>
         <List spacing={3} mt={4} pr={10}>
           <ListItem>
             <Link href="tel:+48576558744">
