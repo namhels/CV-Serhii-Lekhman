@@ -19,7 +19,7 @@ const Header = () => {
       borderTopRightRadius="30px"
     >
       <Heading as="h1" size="3xl" mb="14px">
-        Serhii Lekhman
+      Сергій Лехман
       </Heading>
       <Box position="relative" padding="5" mb={6}>
         <Divider borderBottomWidth="3px" borderColor="black" />
@@ -32,11 +32,11 @@ const Header = () => {
           borderWidth="3px"
           borderColor="purple.100"
         >
-          SUMMARY
+          ПРО СЕБЕ
         </AbsoluteCenter>
       </Box>
       <Text fontSize="md" textIndent={16}>
-        I am straightforward, simple, and able to laugh at myself. I was able to work and survive in the occupied territory for one year and nine months, that’s why I became more stress-resistant, stronger and adaptive. Now I understand that I really love life. So I believe that a person with my experience is able to benefit your company.
+      Я прямий, простий і вмію посміятися над собою. Я зміг пропрацювати і вижити на окупованій території рік і дев’ять місяців, тому став більш стресостійким, сильнішим і адаптивним. Тепер я розумію, що дійсно люблю життя. Тому я вважаю, що людина з моїм досвідом здатна принести користь вашій компанії.
       </Text>
     </GridItem>
   );

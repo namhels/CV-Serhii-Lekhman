@@ -57,26 +57,26 @@ const Aside = () => {
           <ListItem>
             <Link href="https://maps.app.goo.gl/EshspPnvS2uCFM6q9" isExternal>
               <ListIcon as={MdLocationPin} />
-              Poland, Rabka-Zdroj
+              Польша, Рабка-Здруй
             </Link>
           </ListItem>
         </List>
         <Flex direction="column" mt={7}>
-          <HeadingAside>SOFT SKILLS</HeadingAside>
+          <HeadingAside>ГИБКИЕ НАВЫКИ</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
-            <ListItem>Strong analytical thinking</ListItem>
-            <ListItem>Stress resistance</ListItem>
-            <ListItem>Teamwork</ListItem>
-            <ListItem>Creativity</ListItem>
-            <ListItem>Autonomous</ListItem>
+            <ListItem>Сильное аналитическое мышление</ListItem>
+            <ListItem>Стрессоустойчивость</ListItem>
+            <ListItem>Командная работа</ListItem>
+            <ListItem>Креативность</ListItem>
+            <ListItem>Автономность</ListItem>
           </UnorderedList>
         </Flex>
         <Flex direction="column" mt={7}>
-          <HeadingAside>LANGUAGES</HeadingAside>
+          <HeadingAside>ЯЗЫКИ</HeadingAside>
           <UnorderedList spacing={3} mt={4} pr={10}>
-            <ListItem>English - intermediate</ListItem>
-            <ListItem>Ukrainian - native</ListItem>
-            <ListItem>Russian - native</ListItem>
+            <ListItem>Английский – средний уровень</ListItem>
+            <ListItem>Украинский - родной</ListItem>
+            <ListItem>Русский - родной</ListItem>
           </UnorderedList>
         </Flex>
       </Box>

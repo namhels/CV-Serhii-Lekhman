@@ -10,8 +10,8 @@ import {
   Flex,
 } from '@chakra-ui/react';
 
-import works from '../../db/worksJobs.json';
-import educations from '../../db/educations.json';
+import works from '../../db/worksJobsUA.json';
+import educations from '../../db/educationsUA.json';
 
 const Main = () => {
   return (
@@ -34,7 +34,7 @@ const Main = () => {
           borderWidth="3px"
           borderColor="cyan.100"
         >
-          WORK EXPERIENCE
+          ДОСВІД РОБОТИ
         </AbsoluteCenter>
       </Box>
       <UnorderedList spacing={4} mt={3}>
@@ -45,7 +45,7 @@ const Main = () => {
                 <Heading as="h3" size="md">
                   {position}
                 </Heading>
-                <Text fontSize="md" fontWeight="bold" color="#6c757d">{years}</Text>
+                <Text flexWrap='nowrap' fontSize="md" fontWeight="bold" color="#6c757d">{years}</Text>
               </Flex>
                 <Heading as="h4" size="md" color="#6c757d">
                   {firm}
@@ -71,7 +71,7 @@ const Main = () => {
           borderWidth="3px"
           borderColor="cyan.100"
         >
-          EDUCATION
+          ОСВІТА
         </AbsoluteCenter>
       </Box>
       <UnorderedList spacing={4} mt={3}>
