@@ -39,7 +39,7 @@ const Aside = () => {
           <ListItem>
             <Link href="tel:+48576558744">
               <ListIcon as={GiSmartphone} />
-              +48 576 558 744
+              +357 95698009
             </Link>
           </ListItem>
           <ListItem>
@@ -57,7 +57,7 @@ const Aside = () => {
           <ListItem>
             <Link href="https://maps.app.goo.gl/EshspPnvS2uCFM6q9" isExternal>
               <ListIcon as={MdLocationPin} />
-              Poland, Rabka-Zdroj
+              Cyprus, Larnaca
             </Link>
           </ListItem>
         </List>
