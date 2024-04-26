@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CV-Serhii-Lekhman/static/css/main.7acaea2f.css",
-    "main.js": "/CV-Serhii-Lekhman/static/js/main.18b77aae.js",
+    "main.js": "/CV-Serhii-Lekhman/static/js/main.a2ffc73c.js",
     "static/media/ava.jpg": "/CV-Serhii-Lekhman/static/media/ava.5e182a2c744033d3281a.jpg",
     "index.html": "/CV-Serhii-Lekhman/index.html",
     "main.7acaea2f.css.map": "/CV-Serhii-Lekhman/static/css/main.7acaea2f.css.map",
-    "main.18b77aae.js.map": "/CV-Serhii-Lekhman/static/js/main.18b77aae.js.map"
+    "main.a2ffc73c.js.map": "/CV-Serhii-Lekhman/static/js/main.a2ffc73c.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.18b77aae.js"
+    "static/js/main.a2ffc73c.js"
   ]
 }
