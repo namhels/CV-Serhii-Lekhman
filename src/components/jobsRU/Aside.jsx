@@ -57,7 +57,7 @@ const Aside = () => {
           <ListItem>
             <Link href="https://maps.app.goo.gl/EshspPnvS2uCFM6q9" isExternal>
               <ListIcon as={MdLocationPin} />
-              Кипр, Ларнака
+              Кипр, Лимасол
             </Link>
           </ListItem>
         </List>
