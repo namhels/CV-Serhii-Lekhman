@@ -14,7 +14,7 @@ import { GiSmartphone } from 'react-icons/gi';
 import { MdOutlineEmail, MdLocationPin } from 'react-icons/md';
 import { AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai';
 
-import ava from '../images/ava.jpg';
+import ava from '../images/Serhii_Lekhman_Photo.jpg';
 import HeadingAside from './HeadingAside';
 
 const Aside = () => {
@@ -26,6 +26,7 @@ const Aside = () => {
             <Image
               borderRadius="full"
               boxSize="300px"
+              height="25rem"
               objectFit="cover"
               src={ava}
               alt="Serhii Lekhman"
