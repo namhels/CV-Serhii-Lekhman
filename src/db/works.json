@@ -1,16 +1,16 @@
 [
+
   {
-    "position": "Front End Developer",
-    "firm": "at Grand Soft",
-    "years": "2022 - 2023",
+    "position": "Greenhouse Installer",
+    "firm": "at AgroWise",
+    "years": "2024 - present days",
     "titleDescription": "Job description:",
     "description": [
-      "Development, support and improvement of functionality of web applications using React, Vue.",
-      "Participation in the design and implementation of responsive/adaptive design.",
-      "Interaction with backend developers for integration with backend services.",
-      "Interaction with designers to implement design concepts in the web interface.",
-      "Participation in the design and implementation of the front-end architecture.",
-      "Performance optimization and UX/UI improvements."
+      "Manufacturing, installation, maintenance of greenhouses.",
+      "Manufacturing, installation, maintenance of water tanks.",
+      "Manufacturing, installation, maintenance of solar panels."
     ]
   }
 ]
+
+

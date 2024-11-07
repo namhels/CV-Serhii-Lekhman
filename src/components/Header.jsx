@@ -39,7 +39,7 @@ const Header = () => {
         </AbsoluteCenter>
       </Box>
       <Text fontSize="md" textIndent={16}>
-        I am a full-stack developer with one year and nine months of work experience. I have good knowledge and practical experience at HTML, CSS, SASS , BEM, JavaScript, TypeScript, Next, Nest, React, Redux Toolkit, Vue, RESTfull API, Node.js.
+        I am a full-stack developer. I have good knowledge and practical experience at HTML, CSS, SASS , BEM, JavaScript, TypeScript, Next, Nest, React, Redux Toolkit, Vue, RESTfull API, Node.js.
       </Text>
       <Text fontSize="md" textIndent={16}>
         I am straightforward, simple, and able to laugh at myself. Over the past year, I have changed three countries of residence, so I have become more stress-resistant, strong and adaptive. Now I understand that I really love life. So I believe that a person with my experience is able to benefit your company.
@@ -49,3 +49,18 @@ const Header = () => {
 };
 
 export default Header;
+
+// {
+//   "position": "Front End Developer",
+//   "firm": "at Grand Soft",
+//   "years": "2022 - 2023",
+//   "titleDescription": "Job description:",
+//   "description": [
+//     "Development, support and improvement of functionality of web applications using React, Vue.",
+//     "Participation in the design and implementation of responsive/adaptive design.",
+//     "Interaction with backend developers for integration with backend services.",
+//     "Interaction with designers to implement design concepts in the web interface.",
+//     "Participation in the design and implementation of the front-end architecture.",
+//     "Performance optimization and UX/UI improvements."
+//   ]
+// },
