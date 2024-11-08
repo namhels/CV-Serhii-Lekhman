@@ -1,17 +1,17 @@
 [
   {
+    "position": "Greenhouse Installer",
+    "firm": "AgroWise",
+    "years": "2024 - present days",
+    "titleDescription": "Job description:",
+    "description": "Manufacturing, installation, maintenance of greenhouses, water tanks, solar panels, etc."
+  },
+  {
     "position": "Builder",
     "firm": "'InstaHouse' - Malopolskie Voivodeship, Poland",
     "years": "2023 - 2024",
     "titleDescription": "Job description:",
     "description": "Concrete works, waterproofing works, works for the preparation of foundations, construction of roofs, etc."
-  },
-  {
-    "position": "Front End Developer",
-    "firm": "'Grand Soft'",
-    "years": "2022 - 2023",
-    "titleDescription": "Job description:",
-    "description": "Development, support and improvement of functionality of web applications using React, Vue."
   },
   {
     "position": "Installer of tiles",
@@ -23,9 +23,16 @@
   {
     "position": "Installer of metal-plastic structures and stretch ceilings",
     "firm": "PE 'Radyuk' - Zaporizhzhia region, Ukraine",
-    "years": "2012 - 2021",
+    "years": "2013 - 2021",
     "titleDescription": "Job description:",
     "description": "Installation of metal-plastic windows, doors, balconies, structures, stretch ceilings."
+  },
+  {
+    "position": "Security guard, security worker",
+    "firm": "Cottage town Green Town - Krushynka, Kyiv region, Ukraine",
+    "years": "2013",
+    "titleDescription": "Job description:",
+    "description": "Protection of the territory of the cottage town, video surveillance, patrolling the territory, being on duty at the checkpoint."
   },
   {
     "position": "Underground miner",
